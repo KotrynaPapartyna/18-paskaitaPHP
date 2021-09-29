@@ -1,3 +1,6 @@
+<?php require_once("connections.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="lt">
 <head>
@@ -11,7 +14,7 @@
     <div class="container">
         <?php require_once("design-parts/meniu.php"); ?>
         <?php require_once("design-parts/jumbotron.php"); ?>
-        <?php showJumbotron("Blogpost", "Sveiki atvykę į mano blog'ą"); ?>
+        <?php showJumbotron("Index", "Welcome to our website"); ?>
         <?php require_once("design-parts/main.php"); ?>
     </div>
 
